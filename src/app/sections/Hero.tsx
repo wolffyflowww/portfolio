@@ -46,7 +46,7 @@ export default function Hero() {
                             duration: 0.5,
                             delay: 1.2,
                         }}
-                        className="text-left md:text-justify mb-10 text-accent-d1"
+                        className="text-left md:text-justify m-3 mb-10 text-accent-d1"
                     >
                         {PROFILE.tagline}{" "}
                         <span className="text-white">{PROFILE.focus}</span>
@@ -72,12 +72,17 @@ export default function Hero() {
                             <Terminal className="h-4 w-4" />
                             view_projects
                         </a>
-                        
-                        <div className="md:ml-1 flex items-center gap-1.5 text-xs text-muted-foreground">
-                            <MapPin className="h-3.5 w-3.5" />
-                                {PROFILE.location}
-                        </div>
-
+                    </motion.div>
+                    <motion.div
+                        initial={reduce ? false : { opacity: 0, y: 10 }}
+                        animate={reduce ? {} : { opacity: 1, y: 0 }}
+                        transition={{ duration: 0.7, delay: 2.5 }}
+                        className=""
+                    >
+                    <div className="md:ml-1 p-5 flex items-center gap-1.5 text-xs text-muted-foreground">
+                        <MapPin className="h-3.5 w-3.5" />
+                        {PROFILE.location}
+                    </div>
                     </motion.div>
                     
                 </h1>

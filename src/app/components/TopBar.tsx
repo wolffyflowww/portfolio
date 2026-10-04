@@ -22,7 +22,7 @@ export default function TopBar() {
         <header className="sticky top-0 z-40 border-b border-matrix/30 bg-bgclr-d0 py-1">
             <div className={`${jetbrains_mono.className} flex items-row`}>
         
-                <div className="flex items-center gap-0 px-4 text-[18px]">
+                <div className="flex items-center gap-0 px-1 md:px-4 text-[16px] md:text-[18px]">
                     <span className="text-accent-d1">[ryan<span className="hidden md:inline">:portfolio</span>]</span>
                 </div>
                 

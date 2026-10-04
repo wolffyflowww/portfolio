@@ -9,7 +9,7 @@ export default function Contact() {
       
                 {/*<ContactForm />*/}
                 <div className="flex flex-col md:flex-row gap-5">
-                    <div className="rounded-sm border border-txtclr-d0/30 bg-bgclr-d0 p-6 max-w-180">
+                    <div className="rounded-sm border border-txtclr-d0/30 bg-bgclr-d0 p-6 max-w-160">
                         <div className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
                             {"//"} availability
                         </div>

@@ -38,7 +38,7 @@ export default function Achievements() {
                 {ACHIEVEMENTS.map((a, i) => (
                     <li
                         key={i}
-                        className="flex p-3 bg-bgclr-d0 hover:bg-txtclr-d0/5"
+                        className="flex flex-col md:flex-row p-3 bg-bgclr-d0 hover:bg-txtclr-d0/5"
                     >
                         <div className="flex-1 flex items-top font-light">
                             <CheckCircle2 className="h-4 w-4 text-accent-d3" />
