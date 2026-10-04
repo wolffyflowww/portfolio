@@ -23,6 +23,9 @@ export default function Home() {
                 <Contact />
             </main>
             {/*<Footer /> */}
+            <footer className="py-4 text-center text-sm text-white/50">
+                © {new Date().getFullYear()} Ryan Lim. All rights reserved.
+            </footer>
         </div>
     );
 }

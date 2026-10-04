@@ -20,7 +20,7 @@ export default function Section({
     const reduce = useReducedMotion();
 
     return (
-        <section id={id} className="mx-88 pt-30 pb-30">
+        <section id={id} className="mx-10 md:mx-88 pt-20 md:pt-30 pb-20 md:pb-30">
             <motion.header
                 initial={reduce ? false : { opacity: 0, y: 18 }}
                 whileInView={reduce ? {} : {opacity: 1, y: 0 }}
@@ -31,7 +31,7 @@ export default function Section({
                 <div className="flex items-center font-thin">
                     {index}<div className="w-20 h-[0.5px] opacity-50 bg-white mx-3"/>{subtitle}
                 </div>
-                <h2 className="text-[40px] text-accent-d0 font-bold">
+                <h2 className="text-[30px] md:text-[40px] text-accent-d0 font-bold">
                     {title}
                 </h2>
             </motion.header>

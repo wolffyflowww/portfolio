@@ -23,7 +23,7 @@ export default function TopBar() {
             <div className={`${jetbrains_mono.className} flex items-row`}>
         
                 <div className="flex items-center gap-0 px-4 text-[18px]">
-                    <span className="text-accent-d1">[ryan:portfolio]</span>
+                    <span className="text-accent-d1">[ryan<span className="hidden md:inline">:portfolio</span>]</span>
                 </div>
                 
                 <nav className="flex items-stretch">
@@ -32,13 +32,13 @@ export default function TopBar() {
                             key={ws.n}
                             href={ws.href}
                             onClick={() => {setActive(ws.n)}}
-                            className="flex items-center gap-1.5 px-3 py-0 text-[11px]"
+                            className="flex flex-row items-center gap-1.5 px-1 md:px-3 py-0 text-[11px]"
                         >
                             {active === ws.n && (
                                 <span className="text-[18px]">{ws.n}:{ws.label}*</span>
                             )}
                             {active !== ws.n && (
-                                <span className="text-[18px] opacity-60">{ws.n}:{ws.label}</span>
+                                <span className="text-[18px] opacity-60">{ws.n}: <span className="hidden md:inline">{ws.label}</span></span>
                             )}
                         </a>
 
@@ -50,3 +50,4 @@ export default function TopBar() {
     );
 }
 
+                                // <span className="text-[18px] opacity-60">{ws.n}:{ws.label}</span>

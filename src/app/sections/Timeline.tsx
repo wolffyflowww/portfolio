@@ -42,7 +42,7 @@ export default function Timeline() {
                                     {t.role}
                                 </h4>
                                 <div className="text-[13px] text-accent-d1">{t.institution}</div>
-                                <p className="mt-2 text-[13px] leading-relaxed text-muted-foreground text-justify mr-1">
+                                <p className="mt-2 text-[11px] md:text-[13px] leading-relaxed text-muted-foreground text-justify mr-1">
                                     {t.description}
                                 </p>
                             </div>

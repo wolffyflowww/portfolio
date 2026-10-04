@@ -17,7 +17,7 @@ export default function ProjectCard({ project }:{ project: Project }) {
             transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
             whileHover={reduce ? {} : { y: -4 }}
             className={clsx(
-                "group relative min-h-120 flex flex-col flex-1 bg-txtclr-d0/5 rounded-sm p-5 border border-txtclr-d0/30",
+                "group relative min-h-100 md:min-h-120 flex flex-col flex-1 bg-txtclr-d0/5 rounded-sm p-5 border border-txtclr-d0/30",
                 // {
                 //     "bg-txtclr-d0/5": project.metric === "Done",
                 //     "bg-txtclr-d0/5": project.metric !== "Done",

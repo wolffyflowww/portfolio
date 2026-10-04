@@ -48,18 +48,26 @@ export const TERMINAL_BOOT = [
 ];
 
 export const TECH_STACK = [
-    // Professional
-    { name: "Next.js / React", level: 60, category: "Professional" },
-    { name: "TypeScript", level: 78, category: "Professional" },
-    { name: "Tailwind CSS", level: 84, category: "Professional" },
-    { name: "Prisma / Postgres", level: 60, category: "Professional" },
-    { name: "Python", level: 86, category: "Professional" },
+    // Tools & Platforms
+    { name: "Git", level: 87, category: "Tool & Platform" },
+    { name: "GitHub", level: 88, category: "Tool & Platform" },
+    { name: "Linux", level: 90, category: "Tool & Platform" },
+    { name: "NeoVim", level: 93, category: "Tool & Platform" },
+    { name: "Visual Studio Code", level: 92, category: "Tool & Platform" },
+    { name: "Visual Studio", level: 80, category: "Tool & Platform" },
 
-    // Algorithmic
-    { name: "C++", level: 93, category: "Algorithmic" },
-    { name: "Data Structures", level: 78, category: "Algorithmic" },
-    { name: "Competitive Programming", level: 88, category: "Algorithmic" },
-    { name: "Algorithms & Complexity", level: 80, category: "Algorithmic" },
+    // Framework
+    { name: "Next.js", level: 70, category: "Framework" },
+    { name: "React", level: 78, category: "Framework" },
+    { name: "Node.js", level: 60, category: "Framework" },
+    { name: "Tailwind CSS", level: 84, category: "Framework" },
+    
+    // Language
+    { name: "C/C++", level: 95, category: "Language" },
+    { name: "Python", level: 83, category: "Language" },
+    { name: "Java", level: 76, category: "Language" },
+    { name: "TypeScript/JavaScript", level: 65, category: "Language" },
+    { name: "HTML/XML", level: 79, category: "Language" },
 ];
 
 export const PROJECTS = [
