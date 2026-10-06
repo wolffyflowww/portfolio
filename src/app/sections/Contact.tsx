@@ -9,7 +9,7 @@ export default function Contact() {
       
                 {/*<ContactForm />*/}
                 <div className="flex flex-col md:flex-row gap-5">
-                    <div className="rounded-sm border border-txtclr-d0/30 bg-bgclr-d0 p-6 max-w-160">
+                    <div className="flex-1 rounded-sm border border-txtclr-d0/30 bg-bgclr-d0 p-6 max-w-160">
                         <div className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
                             {"//"} availability
                         </div>
@@ -21,7 +21,7 @@ export default function Contact() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-1 gap-3">
+                    <div className="flex-1 xl:flex-2 grid grid-cols-1 gap-3">
                         {[
                             { icon: Mail, label: "email", value: "ryanlimzh61@gmail.com", url: "mailto:ryanlimzh61@gmail.com" },
                             { icon: FaGithub, label: "github", value: "wolffyflowww", url: "https://github.com/wolffyflowww" },
